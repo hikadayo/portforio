@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+  </style>
+</head>
+
+<body>
+<div id="container"> <!--全体を囲むdiv-->
+
+  <header>
+    <div id="header-title">食虫店</div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">トップページ</a></li>
+      <li><a href="syouhinitiran.html">商品一覧</a></li>
+      <li><a href="tokuteisyou.html">特定商取引法について</a</li>
+      <li><a href="toiawase.html">問い合わせ</a></li>
+    </ul>
+  </nav>
+
+  <div id="main">
+<table>
+  <h1>お問い合わせ</h1>
+  <tr><th><label for="user_name">お名前</label></th><td><input type="text" id="user_name" size="40"></td></tr>
+  <tr><th><label for="user_name1">電話番号</label></th><td><input type="text" id="user_name1" size="40"></td></tr>
+  <tr><th><label for="user_name2">E-mail</label></th><td><input type="text" id="user_name2" size="40"></td></tr>
+  <tr><th>お問い合わせ項目</th><td><ul><li><label><input type="radio" name="toiawase" value="syouhin">商品について</label></li><li><label><input type="radio" name="toiawase" value="tousya">当社へのお問い合わせ</label></li><li><label><input type="radio" name="toiawase" value="sonota">その他</label></li></ul></td></tr>
+  <tr><th>内容</th><td><textarea name="message" cols="40" rows="6"></textarea></td></tr>
+</table>
+<div class="form_btn">
+  <button type="submit" class="btn">送信</button>
+  <button type="reset" class="btn">クリア</button>
+  <button type="button" class="btn">戻る</button>
+</div>
+  </div>
+
+  <footer>
+    <p>食虫店</p>
+    <p>Cppyright (C) 2021 Hikaru Kanno All rights reserved.</p>
+  </footer>
+</div><!--全体を囲むdiv-->
+
+</body>
+
+</html>
+
+
